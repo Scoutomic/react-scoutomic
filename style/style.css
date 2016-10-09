@@ -1,0 +1,62 @@
+html {
+	background-color: #ecf0f1 !important;
+}
+
+body {
+	padding-top: 50px;
+
+	font-family: Roboto, sans-serif;
+}
+
+.app-bar {
+	position: fixed !important;
+
+	top: 0;
+	left: 0;
+	right: 0;
+
+	width: 100%;
+}
+
+.scouting-container {
+	margin-top: 20px;
+}
+
+.events-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.event-search-form {
+	width: 100%;
+	text-align: center;
+}
+
+.event-search-input {
+	margin-right: 10px;
+}
+
+.loader {
+	font-family: Roboto, sans-serif;
+}
+
+.event-card {
+    padding: 5px;
+    width: 400px;
+	margin: 10px 10px;
+}
+
+.event-header > * {
+	width: 100%;
+}
+
+.match-search {
+	text-align: center;
+}
+
+.match-loading {
+	margin: 16px;
+}
